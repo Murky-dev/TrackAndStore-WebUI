@@ -17,8 +17,7 @@ const seeds: Entity[] = [
     { id: 3, parent_id: 0, entity_type: "location", name: "Girls Room", description: "No boys allowed!" },
 ]
 
-export const useEntityStore = create<State>
-((set, get) => ({
+export const useEntityStore = create<State>((set, get) => ({
     entities: seeds,
 
     /**
