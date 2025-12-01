@@ -5,6 +5,7 @@ import "./index.css"
 
 import { Home } from "./components/pages/Home"
 import { LearnMore } from "./components/pages/LearnMore"
+import { EntityPage } from "./components/pages/EntityPage"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route index element={<Home />} />
         <Route path="learnmore" element={<LearnMore />} />
+        <Route path="entity/:id" element={<EntityPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
