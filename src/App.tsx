@@ -1,5 +1,5 @@
-import './App.css'
-import { Button } from './components/ui/button'
+import "./App.css"
+import { Button } from "./components/ui/button"
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
           <p className="m-6">Never lose track of your things again.</p>
           <div className="mt-6">
             <Button className="mr-4">Get Started</Button>
-            <Button variant={'secondary'}>Learn More</Button>
+            <Button variant={"secondary"}>Learn More</Button>
           </div>
         </div>
       </div>
